@@ -144,10 +144,6 @@ function commander(cmd) {
     case "socials":
       loopLines(socials, "color2 margin", 80);
       break;
-    case "secret":
-      pw = true;
-      liner.classList.add("password");
-      break;
     case "projects":
       loopLines(projects, "color2 margin", 80);
       break;
