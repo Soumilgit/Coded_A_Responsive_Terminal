@@ -1,12 +1,11 @@
 var youtube = "https://www.youtube.com/@SoumilMukhopadhyay-pd4xo";
 var twitter = "https://x.com/SoumilMukh";
-var password = "smcode";
 var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
 var email = 'mailto:msoumil69@gmail.com';
 var resume = "https://drive.google.com/file/d/1MuUCsYeMXh9Bg_cPjkRpUxZx58iSFL8H/view?usp=sharing";
-var portfolio = 'https://soumilm.vercel.app/';
+var portfolio = "https://soumilm.vercel.app/";
 whois = [
   "<br>",
   "Hey, I'm Soumil!",
@@ -143,7 +142,6 @@ help = [
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">video</span>          View YouTube videos',
   '<span class="command">socials</span>         Display social networks',
-  '<span class="command">secret</span>         Find the password',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
