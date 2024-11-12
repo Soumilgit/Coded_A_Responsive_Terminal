@@ -157,13 +157,6 @@ function commander(cmd) {
     case "email":
       openLink('Opening email...', email);
       break;
-    case "cls":
-      setTimeout(() => {
-        terminal.innerHTML = '<a id="before"></a>';
-        localStorage.removeItem("commands"); // Clear command history from local storage
-        commands = []; // Clear in-memory commands array
-      }, 1);
-      break;
     case "showbanner":
       loopLines(banner, "", 80);
       sessionStorage.setItem("bannerShown", true);
