@@ -148,7 +148,6 @@ help = [
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">email</span>          Do not email me',
-  '<span class="command">cls</span>          Clear terminal',
   '<span class="command">showbanner</span>         Display the header',
   '<span class="command">contributions</span>   View my open-source contributions',
   '<span class="command">experience</span>      Professional and academic experience',
