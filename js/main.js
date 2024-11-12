@@ -246,6 +246,11 @@ function newTab(link) {
   }, 500);
 }
 
+function openLink(text, url) {
+  addLine(text, "color2", 80);
+  setTimeout(() => window.open(url, "_blank"), 500);
+}
+
 
 function addLine(text, style, time) {
   setTimeout(() => {
