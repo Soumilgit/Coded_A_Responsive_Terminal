@@ -239,10 +239,13 @@ function commander(cmd) {
       break;
   }
 }
-function openLink(text, url) {
-  addLine(text, "color2", 80);
-  setTimeout(() => window.open(url, "_blank"), 500);
+
+function newTab(link) {
+  setTimeout(function() {
+    window.open(link, "_blank");
+  }, 500);
 }
+
 
 function addLine(text, style, time) {
   setTimeout(() => {
