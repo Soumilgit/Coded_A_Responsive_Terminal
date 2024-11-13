@@ -33,11 +33,6 @@ socials = [
   "<br>"
 ];
 
-secret = [
-  "<br>",
-  '<span class="command">sudo</span>           Only use if you\'re admin',
-  "<br>"
-];
 
 projects = [
   "<br>",
@@ -110,7 +105,7 @@ goals = [
 
 certifications = [
   "<br>",
-  "Certified in Data Science, Finance, and Python, OOP in C++. More certifications are in progress!",
+  "Certified in Big Data, Management, Finance, Postman, SQL and Python, OOP in C++. More certifications are in progress!",
   "<br>"
 ];
 
