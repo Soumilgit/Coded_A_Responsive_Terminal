@@ -4,7 +4,7 @@ var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
 var email = 'mailto:msoumil69@gmail.com';
-var resume = "https://drive.google.com/file/d/1MuUCsYeMXh9Bg_cPjkRpUxZx58iSFL8H/view?usp=sharing";
+var resume = "https://drive.google.com/file/d/1qZiCYyUWGpV7gaP3ijbRgi-guNf5-Md-/view?usp=sharing";
 var portfolio = "https://soumilm.vercel.app/";
 whois = [
   "<br>",
@@ -87,9 +87,10 @@ hobbies = [
 
 contact = [
   "<br>",
-  "Feel free to reach out on LinkedIn or check my GitHub for collaborations!",
+  'Feel free to reach out on <a href="' + linkedin + '" target="_blank">LinkedIn</a> or check my <a href="' + github + '" target="_blank">GitHub</a> for collaborations!',
   "<br>"
 ];
+
 
 interests = [
   "<br>",
