@@ -4,20 +4,20 @@ body {
   min-height: 99%;
   width: 100%;
   min-width: 320px;
-  color: #cc5cca;
-  background: #393e01;
+  color: #00ff7f;
+  background: #222222;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
 
 ::selection {
-  color: #211830;
-  background-color: #99518c;
+  color: #1a1a1a;
+  background-color: #00FF7F;
 }
 
 ::-moz-selection {
-  color: #2e2738;
-  background-color: #99518c;
+  color: #1a1a1a;
+  background-color: #00FF7F;
 }
 
 textarea {
@@ -32,8 +32,8 @@ b {
 
 .cursor {
   font-size: 12px;
-  color: #99518c;
-  background-color: #99518c;
+  color: #00FF7F;
+  background-color: #00FF7F;
   position: relative;
   opacity: 1;
   height: 1.5em;
@@ -56,7 +56,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #99518c;
+  color: #00FF7F;
 }
 
 #liner {
@@ -68,8 +68,8 @@ b {
 }
 
 #liner::before {
-  color: #519975;
-  content: "visitor@msoumil69@gmail.com:~$";
+  color: #00FF7F;
+  content: "visitor@gmail.com:~$";
 }
 
 #liner.password::before {
@@ -85,7 +85,7 @@ b {
   }
 }
 
-/* Cursor End */
+
 p {
   display: block;
   line-height: 1.3em;
@@ -115,20 +115,20 @@ p {
 }
 
 .index {
-  color: #DCDCCC;
+  color: #00BFFF;
 }
 
 .color2 {
-  color: #ac47a4;
+  color: #FF4500;
 }
 
 .command {
-  color: #73ABAD;
-  text-shadow: 0 0 5px #73ABAD; 
+  color: #00FF7F;;
+  text-shadow: 0 0 5px #00FF7F; 
 }
 
 .error {
-  color: #cf58cf;
+  color: #FF4500;
 }
 
 .white {
@@ -137,7 +137,7 @@ p {
 
 .inherit,
 a {
-  color: #f0a5d8;
+  color: #00BFFF;
 }
 
 a {
@@ -145,8 +145,8 @@ a {
 }
 
 a:hover {
-  background: #60afeb;
-  color: #190e61;
+  background: #FF4500;
+  color: #1a1a1a;
 }
 
 a:focus {
@@ -182,6 +182,7 @@ a:focus {
 
   #liner::before {
       content: "visitor:~$";
+      color: #00FF7F ;
   }
 
   p {
@@ -209,6 +210,7 @@ a:focus {
   #liner::before {
       content: "visitor:~$";
       font-size: 0.9em;
+      color: #00FF7F;
   }
 
   p {
