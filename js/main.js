@@ -1,11 +1,11 @@
-// Select DOM elements
+
 const before = document.getElementById("before");
 const liner = document.getElementById("liner");
 const command = document.getElementById("typer");
 const textarea = document.getElementById("texter");
 const terminal = document.getElementById("terminal");
 
-// Initialize variables
+
 let git = 0;
 let pw = false;
 let pwd = false;
@@ -51,19 +51,19 @@ if (!bannerShown) {
   storeBanner();
 }
 
-// Set up the text area for user input
+
 textarea.focus();
 
-// Restore the last command if available but don't display it at the top of the page
+
 if (commands.length > 0) {
   // Do not add command history to the banner, just keep it stored
   commands.forEach(cmd => {
     // Only store commands, but do not show them at the top of the page
-    // addLine(`visitor@gmail.com:~$ ${cmd}`, "no-animation", 0); // This line is removed for this
+   
   });
 }
 
-// Handle key events
+
 window.addEventListener("keyup", enterKey);
 textarea.value = "";
 command.innerHTML = textarea.value;
