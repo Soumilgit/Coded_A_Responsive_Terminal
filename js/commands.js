@@ -4,7 +4,7 @@ var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
 var email = 'mailto:msoumil69@gmail.com';
-var resume = "https://drive.google.com/file/d/1hT8dp6KtwyAxmVWCDzZSazjPhRKYfWk4/view?usp=sharing";
+var resume = "https://drive.google.com/file/d/12WC-pF5ABBZ9PVCr0xI_UJxj2I2Dz-1V/view?usp=sharing";
 var portfolio = "https://soumilm.vercel.app/";
 whois = [
   "<br>",
