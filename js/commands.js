@@ -26,7 +26,7 @@ whoami = [
 socials = [
   "<br>",
   'youtube        <a href="' + youtube + '" target="_blank">youtube/SoumilMukhopadhyay-pd4xo' +"</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/SoumilMukh' + '</a>',
+  'twitter        <a href="' + twitter + '" target="_blank">twitter/SoumilMukh6476' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/soumilm30' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/soumil_m.exe' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/Soumilgit' + "</a>",
