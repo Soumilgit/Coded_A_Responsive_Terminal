@@ -1,5 +1,5 @@
 var youtube = "https://www.youtube.com/@SoumilMukhopadhyay-pd4xo";
-var twitter = "https://x.com/SoumilMukh";
+var twitter = "https://x.com/SoumilMukh6476";
 var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
