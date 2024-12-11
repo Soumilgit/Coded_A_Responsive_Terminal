@@ -5,7 +5,7 @@
 </p>
 
 # Folder Structure
-Here is the folder structure of the repository : 
+Here's the folder structure of the repository : 
 ```
 .github
 │  └─ FUNDING.yml
