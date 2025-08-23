@@ -4,7 +4,7 @@ var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
 var email = 'mailto:msoumil69@gmail.com';
-var resume = "https://drive.google.com/file/d/1hWpfuB5dwypFma4ma-C7lhc1x7lWPvBW/view?usp=sharing";
+var resume = "https://drive.google.com/file/d/1KFA-tc2UudtuFqZIpwLM2sOAzXrX60HR/view?usp=sharing&usp=embed_facebook";
 var portfolio = "https://soumilm.vercel.app/";
 whois = [
   "<br>",
@@ -177,3 +177,4 @@ banner = [
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
+
