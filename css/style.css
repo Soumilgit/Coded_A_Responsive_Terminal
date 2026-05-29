@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 320px;
+  color: #00ff7f;
+  background: #222222;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #1a1a1a;
+  background-color: #00FF7F;
+}
+
+::-moz-selection {
+  color: #1a1a1a;
+  background-color: #00FF7F;
+}
+
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cursor {
+  font-size: 12px;
+  color: #00FF7F;
+  background-color: #00FF7F;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+#command {
+  cursor: text;
+  height: 50px;
+  color: #00FF7F;
+}
+
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+
+#liner::before {
+  color: #00FF7F;
+  content: "visitor@gmail.com:~$";
+}
+
+#liner.password::before {
+  content: "Password:";
+}
+
+@keyframes show {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.index {
+  color: #00BFFF;
+}
+
+.color2 {
+  color: #FF4500;
+}
+
+.command {
+  color: #00FF7F;;
+  text-shadow: 0 0 5px #00FF7F; 
+}
+
+.error {
+  color: #FF4500;
+}
+
+.white {
+  color: #fff;
+}
+
+.inherit,
+a {
+  color: #00BFFF;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+a:hover {
+  background: #FF4500;
+  color: #1a1a1a;
+}
+
+a:focus {
+  outline: 0;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .banner {
+      font-size: 1.2em;
+      text-align: center;
+      word-wrap: break-word;
+  }
+
+  #liner::before {
+      content: "visitor:~$";
+      color: #00FF7F ;
+  }
+
+  p {
+      line-height: 1.1em;
+      font-size: 0.9em;
+  }
+
+  [class*="col-"] {
+      width: 100%; /* Columns will stack on smaller screens */
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .banner {
+      font-size: 1em;
+      text-align: center;
+      word-wrap: break-word;
+  }
+
+  #liner::before {
+      content: "visitor:~$";
+      font-size: 0.9em;
+      color: #00FF7F;
+  }
+
+  p {
+      line-height: 1em;
+      font-size: 0.8em;
+  }
+}
