@@ -4,6 +4,7 @@ var linkedin = "https://www.linkedin.com/in/soumilm30/";
 var instagram = "https://www.instagram.com/soumil_m.exe/";
 var github = "https://github.com/Soumilgit";
 var email = 'mailto:msoumil69@gmail.com';
+var resume = "https://drive.google.com/file/d/1KFA-tc2UudtuFqZIpwLM2sOAzXrX60HR/view?usp=sharing&usp=embed_facebook";
 var portfolio = "https://soumilm.vercel.app/";
 whois = [
   "<br>",
@@ -47,13 +48,13 @@ contributions = [
 
 experience = [
   "<br>",
-  "I've worked on numerous professional and academic projects, gaining skills in full-stack development, app dev , and AI-based applications. Also, have completed a few internships in reputed organisations, which you can check out on my LinkedIn.",
+  "I've worked on numerous professional and academic projects, gaining skills in full-stack development, app dev , and AI-based applications. Also, have completed a few internships in reputed organisations, which you can check out on my resume or LinkedIn.",
   "<br>"
 ];
 
 achievements = [
   "<br>",
-  "Code Gladiators Finalist",
+  "Code Gladiators Finalist!",
   "Tech Hunt-KJSCE winner",
   "GFG Write It Up Winner",
   "Completed multiple courses and certifications in OOP, management, programming languages and data science.",
@@ -157,6 +158,7 @@ help = [
   '<span class="command">quotes</span>          Inspirational quotes I live by',
   '<span class="command">portfolio</span>       My portfolio of projects',
   '<span class="command">inspiration</span>     My sources of inspiration',
+  '<span class="command">resume</span>          View my resume', 
   "<br>",
 ];
 
@@ -175,3 +177,4 @@ banner = [
   '<span class="color2">Welcome to my interactive web terminal.</span>',
   "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
+
