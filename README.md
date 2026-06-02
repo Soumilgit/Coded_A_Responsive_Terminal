@@ -2,6 +2,7 @@
 <p>
   <br>My own Web-based terminal.</br>
 <br>Consider it as my terminal-based personal portfolio, version 2.0.</br>
+Status : <b>Used occasionally.</b>
 </p>
 
 # Folder Structure
